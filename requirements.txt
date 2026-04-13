@@ -1,7 +1,7 @@
 streamlit
-torch
-torchvision
-opencv-python
+torch==2.1.2
+torchvision==0.16.2
+opencv-python-headless
 albumentations
 numpy
 Pillow
@@ -9,9 +9,5 @@ scikit-image
 scikit-learn
 matplotlib
 onnxruntime
-onnxruntime-gpu
 onnx
-librosa
-soundfile
-pydub
 supervision
